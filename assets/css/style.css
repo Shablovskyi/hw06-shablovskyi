@@ -1,0 +1,185 @@
+:root {
+  --Silver: rgba(238, 239, 241, 1);
+}
+
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-latin-regular.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/roboto-v30-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+      url("../fonts/roboto-v30-latin-regular.woff") format("woff"),
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+      url("../fonts/roboto-v30-latin-regular.ttf") format("truetype"),
+}
+/* roboto-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/roboto-v30-latin-500.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/roboto-v30-latin-500.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/roboto-v30-latin-500.woff2") format("woff2"),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+      url("../fonts/roboto-v30-latin-500.woff") format("woff"),
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+      url("../fonts/roboto-v30-latin-500.ttf") format("truetype"),
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+  line-height: 1.64;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+a {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+header {
+  background: #eeeff1;
+  padding: 79px 0 0 399px;
+}
+
+nav {
+  display: flex;
+  gap: 42px;
+}
+
+nav a {
+  color: #000;
+}
+
+.active {
+  color: #34547a;
+}
+
+.hero {
+  background: #eeeff1;
+  padding: 151px 0 141px 399px;
+}
+
+.hero__title {
+  font-weight: 500;
+  font-size: 48px;
+}
+
+.hero__text {
+  width: 540px;
+  margin: 60px 0 65px;
+  font-size: 16px;
+  color: #727272;
+}
+
+.hero__btn {
+  width: 225px;
+  text-align: center;
+  font-size: 16px;
+  display: block;
+  background-color: #34547a;
+  padding: 20px 0;
+  color: #fff;
+}
+
+.about {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 112px 0 109px;
+}
+
+.about__title {
+  font-weight: 500px;
+  font-size: 32px;
+  line-height: normal;
+  margin-bottom: 50px;
+}
+
+.about__text {
+  width: 536px;
+  font-size: 16px;
+  color: #727272;
+}
+
+.project {
+  background: #34547a;
+  display: flex;
+  gap: 45px;
+  padding: 90px 0 109px 409px;
+}
+
+.project__wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.project__container {
+  color: #fff;
+}
+
+.project__container h3 {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: normal;
+}
+
+.project__container p {
+  font-size: 16px;
+}
+
+.works {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0 83px;
+  background: var(--Silver, #eeeff1);
+}
+
+.works__title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: normal;
+  margin-bottom: 50px;
+}
+
+.work__text {
+  width: 540px;
+  font-size: 16px;
+  padding-bottom: 57px;
+  color: #727272;
+}
+
+footer {
+  background: #34547a;
+  color: #fff;
+  padding: 50px 406px;
+}
+
+.footer__title {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.footer__text {
+  font-size: 13px;
+}
